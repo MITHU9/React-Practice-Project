@@ -1,6 +1,7 @@
 .color {
-  color: rgb(224, 97, 12);
-
+  span {
+    color: rgb(255, 94, 0);
+  }
   button {
     float: right;
     font-size: 20px;

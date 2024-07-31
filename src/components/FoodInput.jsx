@@ -1,11 +1,13 @@
 import "./foodInput.css";
 const FoodInput = (props) => {
   return (
-    <input
-      type="text"
-      placeholder="Enter Food Item....."
-      onChange={props.handleOnChange}
-    />
+    <div className="inputItem">
+      <input
+        type="text"
+        placeholder="Enter Food Item....."
+        onKeyDown={props.handleAddItem}
+      />
+    </div>
   );
 };
 
