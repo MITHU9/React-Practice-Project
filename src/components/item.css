@@ -1,0 +1,8 @@
+.color {
+  color: rgb(224, 97, 12);
+
+  button {
+    float: right;
+    font-size: 20px;
+  }
+}
